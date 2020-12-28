@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+html {
+    font-size: 10pt;
+}
+
+body {
+    background-color: #e0e0e0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23acacac' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+
+h2 {
+    font-size: 3.25rem;
+}
+
+a {
+    color: teal;
+}
+
+a:visited {
+    color: #74638f;
+    }
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;;
+    
+}
+
+@media (max-width: 800px) {
+    #image {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+#tribute-info {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    #tribute-info {
+        width: 100%;
+        height: auto;
+    }
+}
+
+ul {
+    max-width: 750px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    max-width: 750px;
+    margin: 0 auto 50px auto;
+    font-family: "Dancing Script";
+    font-size: 1.8rem;
+}
+
+footer {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+#foot {
+    padding: 27px;
+}
