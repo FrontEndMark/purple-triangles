@@ -33,6 +33,7 @@ h2 {
 
 a {
     color: teal;
+    text-decoration: none;
 }
 
 a:visited {
